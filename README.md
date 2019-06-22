@@ -71,7 +71,7 @@ If non of the above will work then use below solution: [Windows](https://stackov
 | `git pull [remote name] [branch name]` | Pull changes from remote repository |
 | `git remote add [remote name] ssh://git@github.com/[username]/[repository-name].git` | Add a remote repository |
 | `git remote remove [remote name]` | Remove remote name of the repository |
-| `git remote set-url [remote name] ssh://git@github.com/[username]/[repository-name].git` | Set a repository's origin branch to SSH |
+| `git remote set-url [remote name] ssh://git@github.com/[username]/[repository-name].git` | Change repository's origin url |
 
 ### Inspection & Comparison
 
