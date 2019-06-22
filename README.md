@@ -1,7 +1,6 @@
 Git Commands
 ============
 
---
 ### Add Git credentials
 | Command | Description |
 | ------- | ----------- |
