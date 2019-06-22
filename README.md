@@ -1,23 +1,35 @@
 Git Commands
 ============
 
-## Translated Versions
-- [Versão em português](READMEpt.md)
-
-___
-
-_A list of my commonly used Git commands_
-
-*If you are interested in my Git aliases, have a look at my `.bash_profile`, found here: https://github.com/joshnh/bash_profile/blob/master/.bash_profile*
-
 --
+### Add Git credentials
+| Command | Description |
+| ------- | ----------- |
+| `git config --global user.name [username]` | Add username |
+| `git config --global user.email [email-address]` | Add email address |
+
+### Remove Git credentials
+| Command | Description |
+| ------- | ----------- |
+| `git config --global --unset credential.helper` | Unset Credential helper |
+| -or- |
+| `git config --system --unset credential.helper` | Unset Credential helper |
+
+If non of the above will work then use below solution: [Windows](https://stackoverflow.com/a/39592537)
+
+### Check Info
+| Command | Description |
+| ------- | ----------- |
+| `git config --global --list` | Check username, email address and global options |
+| `git config --global user.name` | Check username |
+| `git config --global user.email` | check email address |
 
 ### Getting & Creating Projects
 
 | Command | Description |
 | ------- | ----------- |
 | `git init` | Initialize a local Git repository |
-| `git clone ssh://git@github.com/[username]/[repository-name].git` | Create a local copy of a remote repository |
+| `git clone ssh://git@github.com/[username]/[repository-name].git` | Create a local copy/clone of a remote repository |
 
 ### Basic Snapshotting
 
