@@ -66,7 +66,7 @@ If non of the above will work then use below solution: [Windows](https://stackov
 | Command | Description |
 | ------- | ----------- |
 | `git push [remote name] [branch name]` | Push a branch to your remote repository |
-| `git push -u [remote name] [branch name]` | Push changes to remote repository (and remember the branch) |
+| `git push -u [remote name] [branch name]` | Push changes to remote repository (and remember the branch) [see more](https://stackoverflow.com/a/18032002) |
 | `git push` | Push changes to remote repository (remembered branch) |
 | `git push [remote name] --delete [branch name]` | Delete a remote branch |
 | `git pull` | Update local repository to the newest commit |
