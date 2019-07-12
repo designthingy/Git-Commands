@@ -2,6 +2,7 @@ Git Commands
 ============
 
 [Git Docs](https://git-scm.com/docs/)
+[Writing good commit messages](https://github.com/erlang/otp/wiki/writing-good-commit-messages)
 
 ### Add Git credentials
 | Command | Description |
